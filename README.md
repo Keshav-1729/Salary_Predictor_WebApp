@@ -1,4 +1,4 @@
-#Web Application Using Streamlit
+# Web Application Using Streamlit
 
 This Project involves the use of streamlit ,  pandas , numpy , matplotlib and pickle to create a web application whose main aim is to predict the salary of the Software developer (per annum).
 Firstly, the dataset is  loaded, then data pre-processing and Exploratory Data Analysis is carried out using pandas and matplotlib in order to make data appropriate for the model.
