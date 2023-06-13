@@ -1,6 +1,0 @@
-numpy
-matpltlib.pyplot
-pickle-mixin
-streamlit
-streamlit-option-menu
-scikit-learn
