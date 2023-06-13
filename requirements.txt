@@ -1,5 +1,4 @@
 numpy
-matpltlib
 pickle-mixin
 streamlit
 streamlit-option-menu
