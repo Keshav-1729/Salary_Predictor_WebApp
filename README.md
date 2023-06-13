@@ -8,3 +8,5 @@ Later on, we move on to use a few regression models to use the one with the lowe
 Now, moving on to using the streamlit module in order to create the frontend of the application.Used Pickle to load the saved model to use it in prediction.
 
 The web application is comprised of 2 pages namely, Predict and Explore page. Explore page shows the data in pictorial representation which is used in order to train the model whereas the predict page uses the input information by the user for the prediction. To facilitate the switch between the pages, we used if else statement to import the required function to call and display.
+ ## requirements.txt creation
+ to  create use: 'pip free > requirements.txt'
