@@ -29,7 +29,7 @@ def clean_education(x):
 
 @st.cache_resource #it will available next time since it will cache it
 def load_data():
-    df = pd.read_csv("C:\\python\\Streamlit\\Streamlit Project\\survey_results_public.csv")
+    df = pd.read_csv("survey_results_public.csv")
     df = df.rename({"ConvertedCompYearly": "Salary"}, axis=1)
     df = df[["Country", "EdLevel", "YearsCodePro", "Employment", "Salary"]]
     df = df[df["Salary"].notnull()]
