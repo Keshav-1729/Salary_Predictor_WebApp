@@ -9,7 +9,7 @@ Now, moving on to using the streamlit module in order to create the frontend of 
 
 The web application is comprised of 2 pages namely, Predict and Explore page. Explore page shows the data in pictorial representation which is used in order to train the model whereas the predict page uses the input information by the user for the prediction. To facilitate the switch between the pages, we used if else statement to import the required function to call and display.
  ## requirements.txt creation
- to  create, use: 'pip freeze > requirements.txt'
+ to  create, use: 'pip freeze > requirements.txt' or 'pipreqs'
 
 ### Problems in deploying this model:
 1.It's code is having the path of the file in my system and not the name of my file and also the csv file used to explore and train the model is not uploadable because of its high size.
