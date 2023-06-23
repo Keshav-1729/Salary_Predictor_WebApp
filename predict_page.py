@@ -49,7 +49,7 @@ def show_predict_page():
 
     ok= st.button('Calculate Salary')
     if ok:
-        X = np.array([[country, education, expericence ]])
+        X = np.array([[country, education, experience ]])
         X[:, 0] = le_country.transform(X[:,0])
         X[:, 1] = le_education.transform(X[:,1])
         X = X.astype(float)
